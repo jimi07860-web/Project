@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": "prod_1001",
+      "name": "Wireless Headphones",
+      "slug": "wireless-headphones",
+      "description": "High quality wireless headphones with noise cancellation",
+      "category": "electronics",
+      "price": 7999,
+      "brand": "Sony",
+      "rating": 4.5,
+      "isActive": true,
+      "createdAt": "2026-01-10T10:30:00Z",
+      "updatedAt": "2026-03-01T12:00:00Z"
+    },
+    {
+      "id": "prod_1002",
+      "name": "Running Shoes",
+      "slug": "running-shoes",
+      "description": "Lightweight running shoes for daily workouts",
+      "category": "footwear",
+      "price": 1200,
+      "brand": "Nike",
+      "rating": 4.3,
+      "isActive": true,
+      "createdAt": "2026-02-05T08:15:00Z",
+      "updatedAt": "2026-03-10T09:00:00Z"
+    },
+    {
+      "id": "prod_1003",
+      "name": "Smart Watch",
+      "slug": "smart-watch",
+      "description": "Smartwatch with health tracking features",
+      "category": "wearables",
+      "price": 1599,
+      "brand": "Apple",
+      "rating": 4.7,
+      "isActive": true,
+      "createdAt": "2026-01-20T12:00:00Z",
+      "updatedAt": "2026-03-15T11:20:00Z"
+    }
+  ],
+  "meta": {
+    "total": 3,
+    "page": 1,
+    "limit": 10
+  }
+}
