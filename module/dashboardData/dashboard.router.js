@@ -1,6 +1,7 @@
 import {Router} from "express"
 // something happened
 //
+const data= []
 import FatchData from "./dashboard.controller.js"
 
 const dashboardRouter= Router();
