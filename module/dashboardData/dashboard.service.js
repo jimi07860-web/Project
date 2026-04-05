@@ -6,6 +6,7 @@ import {getUserbyCond} from "../auth/authRepository.js"
 const getData= async() => {
 const [order, product, user]= await Promise.all(
     [getOrderData(), productFind(), getUserbyCond()])
+    console.log("my dashboard data", order, product, user)
     return {user, product, order}
 }
 
