@@ -4,7 +4,7 @@ import {authArrayObject, authSchema} from "./authSchema.js";
 //
 export const signupController= asyncHandler(async (req, res) => {
     const payload= authSchema.parse(req.body)
-    console.log("payload", payload);
+    //console.log("payload", payload);
     if(!payload)
         throw new Error("invalid credential")
     const user= await signupService(payload);
